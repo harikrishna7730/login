@@ -4,7 +4,7 @@ const AboutPage=()=>{
     return(
         <>
         <Navbar/>
-        <h1>About page.....</h1>
+        <h1 className="flex justify-center align-middle text-4xl mt-[100px]">About page.....</h1>
         </>
     )
 }

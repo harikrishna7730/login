@@ -1,5 +1,6 @@
 import Navbar from "../components/navbar"
 import Content from "../components/content"
+import RecipePage from "../components/recipes"
 
 
 const HomePage=()=>{
@@ -7,6 +8,7 @@ const HomePage=()=>{
         <>
         <Navbar/>
        <Content/>
+       <RecipePage/>
         </>
     )
 }
