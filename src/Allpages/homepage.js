@@ -1,14 +1,17 @@
 import Navbar from "../components/navbar"
 import Content from "../components/content"
-import RecipePage from "../components/recipes"
+import Recipes from "../components/recipes"
+import Meals from "../components/recipes"
 
 
 const HomePage=()=>{
+    
     return(
         <>
         <Navbar/>
-       <Content/>
-       <RecipePage/>
+       {/* <Content/> */}
+       {/* <Recipes/> */}
+       <Meals/>
         </>
     )
 }

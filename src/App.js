@@ -5,16 +5,18 @@ import HomePage  from "./Allpages/homepage"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import LoginPage from './Allpages/loginpage';
 import { createContext, useState } from 'react';
+
 export const Datashare=createContext()
 
 function App() {
   
 const[Login,setLogin]=useState(false)
+const[data,setData]=useState([]);
   return (
    <>
-   <Datashare.Provider value={{setLogin}}>
+   <Datashare.Provider value={{setLogin,data,setData}}>
    <BrowserRouter>
-            <Routes>
+          <Routes>
               {
                 Login
                 ?(

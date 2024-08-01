@@ -60,7 +60,7 @@ const LoginPage = () => {
                     <h1 className="text-4xl font-bold text-center underline underline-offset-8 p-10">Login</h1>
                     <div>
                         <label className="font-bold">Username:</label>
-                        <input type="text" className="border-2 border-black rounded" value={form.username} name="username" onChange={handleChange} required />
+                        <input type="email" className="border-2 border-black rounded" value={form.username} name="username" onChange={handleChange} required />
                         {error.username && <p className="text-red-500">{error.username}</p>}
                     </div>
                     <div>
